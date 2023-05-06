@@ -25,6 +25,11 @@
         "network": "Facebook",
         "username": "robin.mordasiewicz",
         "url": "https://www.facebook.com/robin.mordasiewicz"
+      },
+      {
+        "network": "YouTube",
+        "username": "robinmordasiewicz",
+        "url": "https://www.youtube.com/channel/UCc2rQTQp22P2WEhCArzlUoQ"
       }
     ]
   },
@@ -35,38 +40,53 @@
       "description": "F5 Distributed Cloud Services",
       "position": "Cloud Solutions Engineer",
       "url": "https://www.f5.com",
-      "startDate": "2013-12-01",
+      "startDate": "2021-07-01",
       "endDate": "2023-05-01",
       "summary": "F5 Distributed Cloud Services are SaaS-based security, networking, and application management services that enable customers to deploy, secure, and operate their applications in a cloud-native environment wherever needed–data center, multi-cloud, or the network or enterprise edge.",
       "highlights": [
-        "Connect, protect, and deploy apps across distributed clouds",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Covering financial services in North America",
+        "Multi Cloud Networking",
+        "Cloud Automation with Terraform"
+      ]
+    },
+    {
+      "name": "F5 Inc.",
+      "location": "801 5th Ave",
+      "description": "Enterprise Application Delivery and Security",
+      "position": "Solutions Engineer",
+      "url": "https://www.f5.com",
+      "startDate": "2013-12-01",
+      "endDate": "2021-06-30",
+      "summary": "F5 Distributed Cloud Services are SaaS-based security, networking, and application management services that enable customers to deploy, secure, and operate their applications in a cloud-native environment wherever needed–data center, multi-cloud, or the network or enterprise edge.",
+      "highlights": [
+        "Covering financial services in North America",
+        "Multi Cloud Networking",
+        "Cloud Automation with Terraform"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.mordasiewicz.com/",
+      "organization": "Pony-Metal Orchestra",
+      "position": "Music Coach",
+      "url": "http://music.mordasiewicz.com/",
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "summary": "Community music festival organizer for neighbourhood kids",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        ""
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
+      "institution": "University of Ottawa",
+      "url": "https://www.uottawa.ca/en",
       "area": "Information Technology",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
+      "startDate": "1992-06-01",
+      "endDate": "1995-04-01",
+      "score": "",
       "courses": [
         "DB1101 - Basic SQL",
         "CS2011 - Java Introduction"
@@ -75,10 +95,10 @@
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "title": "Solutions Engineer of the Year",
+      "date": "2020-11-01",
+      "awarder": "F5 Inc.",
+      "summary": ""
     }
   ],
   "publications": [
