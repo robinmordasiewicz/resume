@@ -8,3 +8,5 @@ npx resume export Robin-Mordasiewicz-2.pdf --theme ./node_modules/jsonresume-the
 
 gh gist create --public --desc "https://registry.jsonresume.org/robinmordasiewicz" resume.json
 
+gh gist delete 5094ebe4aef778e61cb1d977a771a1fd
+
