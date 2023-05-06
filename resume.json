@@ -62,7 +62,25 @@
         "Covering Greater Toronto Area",
         "Hybrid Cloud Architecture",
         "Devops",
-        "Automation with Ansible"
+        "Automation with Ansible",
+        "iRules"
+      ]
+    },
+    {
+      "name": "F5 Inc.",
+      "location": "801 5th Ave Seattle, WA 98104",
+      "description": "Enterprise Application Delivery and Security, including Web Application Firewalls, and Datacenter firewalls",
+      "position": "Solutions Engineer",
+      "url": "https://www.f5.com",
+      "startDate": "2018-12-01",
+      "endDate": "2021-04-30",
+      "summary": "Working with large enterprise customers in the Greater Toronto Area to help architect hybrid cloud architecture using F5 technology. Team collaboration, presenting technical labs and product demonstration in online webinar format as well as large in-person group events.",
+      "highlights": [
+        "Covering Greater Toronto Area",
+        "Hybrid Cloud Architecture",
+        "Devops",
+        "Automation with Ansible",
+        "iRules"
       ]
     }
   ],
@@ -148,7 +166,7 @@
   ],
   "references": [
     {
-      "name": "",
+      "name": "Brian ",
       "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
     }
   ],
