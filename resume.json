@@ -36,13 +36,13 @@
   "work": [
     {
       "name": "F5 Inc.",
-      "location": "801 5th Ave",
-      "description": "F5 Distributed Cloud Services",
+      "location": "801 5th Ave, Seattle WA",
+      "description": "F5 Distributed Cloud Services are SaaS-based security, networking, and application management services that enable customers to deploy, s  ecure, and operate their applications in a cloud-native environment wherever needed–data center, multi-cloud, or the network or enterprise edge.",
       "position": "Cloud Solutions Engineer",
       "url": "https://www.f5.com",
       "startDate": "2021-05-01",
       "endDate": "2023-05-01",
-      "summary": "F5 Distributed Cloud Services are SaaS-based security, networking, and application management services that enable customers to deploy, secure, and operate their applications in a cloud-native environment wherever needed–data center, multi-cloud, or the network or enterprise edge.",
+      "summary": "A Solution Engineer focusing on F5 Distributed cloud covering major accounts, positioning multi-cloud networking, application security and kubernetes solutions. In the SME overlay role I was responsible for account discovery, product presentations, demonstrations, and proof of concept, incliding automation with terraform across multiple clouds on-prem datacenters. In the cloud overlay team I was responsible for architecting CICD pipeline integrations including github-actions, docker containers, argocd, jenkins, nginx ingress controller. Cloud based Web Application Firewalls, API protections, and networking application delivery with GSLB as well as anycast architectures.",
       "highlights": [
         "Covering financial services in North America",
         "Multi Cloud Networking",
@@ -177,7 +177,7 @@
     }
   ],
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
     "version": "v1.0.0",
     "lastModified": "2023-05-05T14:57:00",
     "theme": "elegant"
