@@ -7,7 +7,7 @@
     "email": "robin@mordasiewicz.com",
     "phone": "(647) 808-6947",
     "url": "https://registry.jsonresume.org/robinmordasiewicz",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "Senior Sales Engineer covering major accounts, with a focus on multi-cloud networking, application security, and kubernetes solutions.",
     "location": {
       "address": "26 Margueretta St.",
       "postalCode": "M6K2P4",
@@ -20,6 +20,11 @@
         "network": "LinkedIn",
         "username": "robin-mordasiewicz",
         "url": "https://www.linkedin.com/in/robin-mordasiewicz/"
+      },
+      {
+        "network": "Facebook",
+        "username": "robin.mordasiewicz",
+        "url": "https://www.facebook.com/robin.mordasiewicz"
       }
     ]
   },
@@ -87,12 +92,12 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Web Application Firewall and API Protection",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "WAAP",
+        "WAF",
+        "API"
       ]
     },
     {
