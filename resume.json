@@ -30,6 +30,11 @@
         "network": "YouTube",
         "username": "robinmordasiewicz",
         "url": "https://www.youtube.com/channel/UCc2rQTQp22P2WEhCArzlUoQ"
+      },
+      {
+        "network": "GitHub",
+        "username": "robinmordasiewicz",
+        "url": "https://github.com/robinmordasiewicz"
       }
     ]
   },
@@ -110,8 +115,8 @@
       "description": "Canada’s leading IT solution provider, focused on security, infrastructure, and cloud.",
       "position": "Sales Engineer",
       "url": "https://www.cdw.ca/content/cdwca/en/scalar-is-now-cdw-canada.html",
-      "endDate": "2018-07-01",
-      "startDate": "2014-06-01",
+      "endDate": "2014-06-01",
+      "startDate": "2008-06-01",
       "summary": "Responsible for helping build North Americas largest F5 partner, including product sales, professional services, F5 Authorized Trainer, delivering customer presentations for sales as well as public speaking events. Over the course of the five years I delivered authorized F5 training classes including ASM, GTM, LTM, and APM classes to hundreds of customers.",
       "highlights": [
         "NetApp",
