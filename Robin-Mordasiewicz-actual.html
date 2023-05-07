@@ -1,0 +1,366 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><style>@charset "UTF-8";
+/* Workaround for 'break-before:avoid' */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+span, q {
+  display: block;
+}
+
+p {
+  margin: 0;
+}
+
+@page {
+  size: A4;
+  margin: 15mm 0 20mm 0;
+}
+@page :first {
+  margin-top: 10mm;
+}
+a {
+  color: #222222;
+  font-weight: inherit;
+  text-decoration: none;
+}
+a[href] {
+  text-decoration: underline;
+  text-decoration-color: #888888;
+}
+
+p, q {
+  line-height: 1.25em;
+}
+
+li {
+  line-height: 1.35em;
+}
+li:first-child {
+  margin-top: 0;
+}
+
+.content {
+  width: 1000px;
+  height: auto;
+  padding: 0 50px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+
+.table {
+  width: 100%;
+  display: table;
+}
+.table .main {
+  display: table-cell;
+  width: 70%;
+  padding-right: 50px;
+}
+.table .side {
+  display: table-cell;
+  width: 30%;
+  padding-left: 50px;
+  text-align: right;
+}
+
+.summary {
+  font-size: 15px;
+}
+.summary:empty {
+  display: none;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+
+.margin-container-2:not(:first-child) {
+  margin-top: 20px;
+}
+
+.margin-container-3:not(:first-child) {
+  margin-top: 30px;
+}
+
+.margin-container-4:not(:first-child) {
+  margin-top: 50px;
+}
+
+.padding-container-2 {
+  padding: 20px 0;
+}
+
+.margin-text-1 {
+  margin-top: 2px;
+}
+.margin-text-1:empty {
+  display: none;
+}
+
+.margin-text-2 {
+  margin-top: 4px;
+}
+.margin-text-2:empty {
+  display: none;
+}
+
+.margin-text-3 {
+  margin-top: 6px;
+}
+.margin-text-3:empty {
+  display: none;
+}
+
+.margin-text-4 {
+  margin-top: 8px;
+}
+.margin-text-4:empty {
+  display: none;
+}
+
+.margin-text-5 {
+  margin-top: 14px;
+}
+.margin-text-5:empty {
+  display: none;
+}
+
+.no-break {
+  break-inside: avoid;
+}
+
+.no-alone-1 {
+  break-inside: avoid;
+}
+.no-alone-1::after {
+  content: "";
+  display: block;
+  height: 75px;
+  margin-bottom: -75px;
+}
+
+.no-alone-2 {
+  break-inside: avoid;
+}
+.no-alone-2::after {
+  content: "";
+  display: block;
+  height: 150px;
+  margin-bottom: -150px;
+}
+
+.markdown h1 {
+  font-size: 160%;
+  font-weight: bolder;
+}
+.markdown h2 {
+  font-size: 150%;
+  font-weight: bolder;
+}
+.markdown h3 {
+  font-size: 140%;
+  font-weight: bolder;
+}
+.markdown h4 {
+  font-size: 130%;
+  font-weight: bold;
+}
+.markdown h5 {
+  font-size: 120%;
+  font-weight: bold;
+}
+.markdown h6 {
+  font-size: 110%;
+  font-weight: bold;
+}
+.markdown ul, .markdown ol {
+  margin-left: 20px;
+}
+.markdown img {
+  display: block;
+  margin: 20px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+.markdown blockquote {
+  margin: 20px 0;
+  padding: 15px 20px;
+}
+.markdown blockquote p {
+  display: inline;
+}
+.markdown code {
+  font-family: monospace;
+}
+
+.main .highlights {
+  width: auto;
+  display: block;
+  padding: 0 10px;
+  margin-bottom: 0;
+  columns: 2;
+  column-width: 310px;
+  column-gap: 10px;
+}
+.main .highlights li {
+  font-size: 14px;
+  list-style: none;
+}
+.main .highlights li:before {
+  content: "· ";
+  vertical-align: middle;
+}
+.main .left {
+  display: table-cell;
+}
+.main .left .title {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+.main .left .subtitle {
+  font-size: 16px;
+  font-weight: lighter;
+  display: block;
+}
+.main .right {
+  text-align: right;
+  display: table-cell;
+}
+.main .right .date {
+  font-size: 15px;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
+.basics .main {
+  vertical-align: middle;
+}
+.basics .main .name {
+  font-size: 80px;
+  line-height: 1em;
+  font-weight: bold;
+  display: block;
+  margin-left: -5.6px;
+}
+.basics .main .label {
+  font-size: 40px;
+  line-height: 1em;
+  font-weight: lighter;
+  display: block;
+  margin-left: -1.6px;
+}
+.basics .side {
+  vertical-align: middle;
+  padding-left: 0;
+  padding-top: 15px;
+}
+.basics .side .contact {
+  list-style-type: none;
+}
+.basics .side .contact li {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.links ul {
+  list-style: none;
+}
+.links ul li {
+  font-size: 14px;
+}
+
+.education .title {
+  font-size: 15px;
+}
+.education .institution {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.awards .header .title {
+  font-size: 15px;
+}
+.awards .header .awarder {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.awards .summary {
+  font-size: 14px;
+}
+
+.certificates .name {
+  font-size: 15px;
+}
+.certificates .issuer {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.skills .section-title {
+  margin: 0;
+}
+.skills .container {
+  display: block;
+  columns: 2;
+  column-gap: 10px;
+}
+.skills .container .article {
+  break-inside: avoid-column;
+  min-width: 120px;
+  padding-top: 20px;
+}
+.skills .container .article span {
+  display: block;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.skills .container .article li {
+  font-size: 14px;
+  list-style: none;
+}
+
+.languages ul {
+  list-style: none;
+}
+.languages ul li {
+  font-size: 14px;
+}
+
+.interests ul {
+  list-style: none;
+}
+.interests ul li {
+  font-size: 14px;
+}
+
+.references .name {
+  font-size: 15px;
+}
+.references q {
+  font-size: 14.5px;
+  font-weight: lighter;
+  font-style: italic;
+}</style><title>Resume Robin Mordasiewicz – Multi-Cloud Solutions Engineer</title></head><body><div class="content"><div class="basics"><div class="table padding-container-2"><div class="main"><span class="name">Robin Mordasiewicz</span><span class="label">Multi-Cloud Solutions Engineer</span></div><div class="side"><ul class="contact"><li>(647) 808-6947</li><li>robin@mordasiewicz.com</li><li class="margin-text-5">Toronto, Ontario, CA</li></ul></div></div><div class="summary markdown padding-container-2"><p>Senior Sales Engineer covering major accounts, with a focus on multi-cloud networking, application security, and kubernetes solutions.</p>
+</div></div><div class="table padding-container-2"><div class="main"><div class="work margin-container-4"><p class="section-title no-alone-2">Experience</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Cloud Solutions Engineer</span><span class="subtitle margin-text-1"><a href="https://www.f5.com">F5 Inc.</a> · 801 5th Ave Seattle, WA 98104</span></div><div class="right"><span class="date">May 2021 - May 2023</span></div></div></div><div class="summary markdown margin-text-4"><p>Solution selling, focusing on F5 Distributed Cloud, positioning multi-cloud networking, application security and kubernetes based pipelines. In the SME overlay role I was responsible for account discovery, product presentations, demonstrations, and proof of concept, including automation with terraform across multiple clouds with on-prem datacenters. In the cloud overlay team I was responsible for architecting CICD pipeline integrations including github-actions, docker containers, argocd, jenkins, nginx ingress controller. Cloud based Web Application Firewalls, API protections, and networking application delivery with GSLB as well as anycast architectures.</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Covering financial services in North America</li><li>Multi Cloud Networking</li><li>Cloud Automation with Terraform</li><li>Web App and API Protection</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Technical Marketing Manager - Service Providers</span><span class="subtitle margin-text-1"><a href="https://www.f5.com">F5 Inc.</a> · 801 5th Ave Seattle, WA 98104</span></div><div class="right"><span class="date">Jul 2020 - May 2021</span></div></div></div><div class="summary markdown margin-text-4"><p>Working with large enterprise customers in the Greater Toronto Area to help architect hybrid cloud architecture using F5 technology. Team collaboration, presenting technical labs and product demonstration in online webinar format as well as large in-person group events.</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Authoring Technical Documentation</li><li>Content As Code</li><li>Restructured Text</li><li>Containerized Content Publishing</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Senior Solutions Engineer - Enterprise Commercial</span><span class="subtitle margin-text-1"><a href="https://www.f5.com">F5 Inc.</a> · 801 5th Ave Seattle, WA 98104</span></div><div class="right"><span class="date">Jul 2018 - Jul 2020</span></div></div></div><div class="summary markdown margin-text-4"><p>Working with large enterprise customers in the Greater Toronto Area to help architect hybrid cloud architecture using F5 technology. Team collaboration, presenting technical labs and product demonstration in online webinar format as well as large in-person group events.</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Enterprise Commercial</li><li>Hybrid Cloud Architecture</li><li>Devops</li><li>Automation with Ansible</li><li>Web Appplication Firewall</li><li>VPN</li><li>iRules</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Field Sales Engineer - Service Providers</span><span class="subtitle margin-text-1"><a href="https://www.f5.com">F5 Inc.</a> · 801 5th Ave Seattle, WA 98104</span></div><div class="right"><span class="date">Jun 2014 - Jul 2018</span></div></div></div><div class="summary markdown margin-text-4"><p>Solution selling for Canadian Service Providers I have experience with carrier grade firewalls, wireline services, web application firewalls, and application delivery at scale. Architecting carrier-grade-NAT for mobility networks, architecting inspection platform enabling multi-vendor security chains including DLP/NGWF/IDS for connected car, connected city, and large IoT networks. Deploying massive distributed VPN platforms.</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Service Providers</li><li>CGNAT</li><li>IoT Security Chaining</li><li>OpenStack</li><li>OpenShift</li><li>Web Appplication Firewall</li><li>DLP</li></ul></div><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Sales Engineer</span><span class="subtitle margin-text-1"><a href="https://www.cdw.ca/content/cdwca/en/scalar-is-now-cdw-canada.html">Scalar Decisions</a> · 1 Toronto St, Toronto, ON M5C 2V6</span></div><div class="right"><span class="date">Jun 2008 - Jun 2014</span></div></div></div><div class="summary markdown margin-text-4"><p>Responsible for helping build North Americas largest F5 partner, including product sales, professional services, F5 Authorized Trainer, delivering customer presentations for sales as well as public speaking events. Over the course of the five years I delivered authorized F5 training classes including ASM, GTM, LTM, and APM classes to hundreds of customers.</p>
+</div><ul class="highlights margin-text-4 no-break"><li>NetApp</li><li>VMWare</li><li>F5 Bigip</li><li>Certified F5 Trainer</li><li>Pre Sales</li><li>Professional Services</li><li>Customer facing speaking events</li><li>Technical demonstrations</li></ul></div></div></div><div class="projects margin-container-4"><p class="section-title no-alone-2">Projects</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Team lead and Designer</span><span class="subtitle margin-text-1"><a href="missdirection.mordasiewicz.com">Miss Direction</a></span></div><div class="right"><span class="date">Aug 2016 - Aug 2016</span></div></div></div><div class="summary markdown margin-text-4"><p>A mapping engine that misguides you</p>
+</div><ul class="highlights margin-text-4 no-break"><li>Won award at AIHacks 2016</li><li>Built by all women team of newbie programmers</li><li>Using modern technologies such as GoogleMaps, Chrome Extension and Javascript</li></ul></div></div></div><div class="publications margin-container-4"><p class="section-title no-alone-2">Publications</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title"><a href="http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)">Video compression for 3d media</a></span><span class="subtitle margin-text-1">Hooli</span></div><div class="right"><span class="date">Oct 2014</span></div></div></div><div class="summary markdown margin-text-4"><p>Innovative middle-out compression algorithm that changes the way we store data.</p>
+</div></div></div></div><div class="volunteer margin-container-4"><p class="section-title no-alone-2">Volunteer</p><div class="container"><div class="article margin-container-3"><div class="header no-alone-1"><div class="table"><div class="left"><span class="title">Music Coach</span><span class="subtitle margin-text-1"><a href="http://music.mordasiewicz.com/">Pony-Metal Orchestra</a></span></div><div class="right"><span class="date">Jan 2012 - Jan 2013</span></div></div></div><div class="summary markdown margin-text-4"><p>Community music festival organizer for neighbourhood kids</p>
+</div><ul class="highlights margin-text-4 no-break"><li></li></ul></div></div></div></div><div class="side"><div class="skills margin-container-4"><p class="section-title no-alone-1">Skills</p><div class="container"><div class="article no-break"><span>Web Application Firewall and API Protection</span><ul class="margin-text-2"><li>WAAP</li><li>WAF</li><li>API</li></ul></div><div class="article no-break"><span>Compression</span><ul class="margin-text-2"><li>Mpeg</li><li>MP4</li><li>GIF</li></ul></div></div></div><div class="education margin-container-4"><p class="section-title no-alone-1">Education</p><div class="container"><div class="article margin-container-2 no-break"><div class="title markdown"><p>Bachelor, Information Technology</p>
+</div><span class="institution margin-text-2"><a href="https://www.uottawa.ca/en">University of Ottawa</a></span></div></div></div><div class="awards margin-container-4"><p class="section-title no-alone-1">Awards</p><div class="container"><div class="article margin-container-2 no-break"><div class="header"><span class="title">Solutions Engineer of the Year</span><span class="awarder margin-text-2">F5 Inc.</span></div><div class="summary markdown margin-text-3"></div></div></div></div><div class="references margin-container-4"><p class="section-title no-alone-2">References</p><div class="container"><div class="article margin-container-2 no-break"><span class="name">Brian </span><q class="margin-text-2">It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company.</q></div></div></div><div class="languages margin-container-4 no-break"><p class="section-title no-alone-1">Languages</p><div class="container"><ul><li class="article margin-text-2">English · Native speaker</li></ul></div></div><div class="interests margin-container-4 no-break"><p class="section-title no-alone-1">Interests</p><div class="container"><ul><li class="article margin-text-2">Watersports</li></ul></div></div><div class="links margin-container-4 no-break"><p class="section-title no-alone-1">Links</p><div class="container"><ul><li class="article"><a href="https://registry.jsonresume.org/robinmordasiewicz"><strong>registry.jsonresume.org</strong>/robinmordasiewicz</a></li><li class="article margin-text-4"><a href="https://www.linkedin.com/in/robin-mordasiewicz/"><strong>linkedin.com</strong>/in/robin-mordasiewicz</a></li><li class="article margin-text-4"><a href="https://www.facebook.com/robin.mordasiewicz"><strong>facebook.com</strong>/robin.mordasiewicz</a></li><li class="article margin-text-4"><a href="https://www.youtube.com/channel/UCc2rQTQp22P2WEhCArzlUoQ"><strong>youtube.com</strong>/channel/UCc2rQTQp22P2WEhCArzlUoQ</a></li><li class="article margin-text-4"><a href="https://github.com/robinmordasiewicz"><strong>github.com</strong>/robinmordasiewicz</a></li></ul></div></div></div></div></div></body></html>

@@ -1,0 +1,539 @@
+<!doctype html>
+<html>
+	<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Robin Mordasiewicz - CV</title>
+
+	<style>
+	/*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* General, overall styling */
+body {
+	background: #F9F9F9;
+	font-size: 0.9em;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 100px;
+}
+
+em {
+	color: #999;
+}
+
+p {
+	line-height: 1.4;
+}
+
+a {
+	color: #31A6D6;
+}
+
+a:visited {
+	color: #3061A5;
+}
+
+a:hover {
+	color: #3061A5;
+}
+
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+/* End general, overall styling */
+
+/* Header name styling */
+
+header {
+	background: #68B6E3;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+header h1 {
+	color: #FFFFFF;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+header h2 {
+	color: #F3F3F3;
+	font-size: 1em;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+/* End header name styling */
+
+/* Set width of main body of CV */
+.container {
+	max-width: 700px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+/* End */
+
+/* Styling Basics (Name, Contact, About, Profiles) */
+
+#basics {
+	margin-bottom: 10px;
+	border-top: 1px #E2E2E2 solid;
+	border-bottom: 1px #E2E2E2 solid;
+}
+#basics h3 {
+	margin-top: 1.5em;
+	margin-bottom: 10px;
+}
+#basics .contact strong {
+	line-height: 1.3;
+	float: left;
+	width: 80px;
+}
+
+.contact h3 {
+	padding-bottom: 10px;
+}
+
+.website,
+.email,
+.phone {
+	margin-bottom: 10px;
+	float: left;
+	width: 50%;
+}
+
+.summary {
+	padding-top: 5px;
+	clear: both;
+}
+
+#profiles {
+	overflow: hidden;
+}
+
+#profiles .item {
+	float: left;
+	width: 50%;
+}
+
+.username{
+	margin-top: 10px;
+}
+
+/* End 'Basics' Styling */
+
+/* Work and volunteering experience styling */
+
+.work_date,
+.work_position,
+.work_website,
+.institution,
+.study_date,
+.qualification {
+	margin-bottom: 10px;
+	float: left;
+	width: 30%;
+}
+
+.courses {
+	clear: both;
+}
+
+.dissertation {
+	margin-top: 10px;
+}
+
+#work,
+#volunteer {
+	padding-bottom: 5px;
+	border-bottom: 1px #E2E2E2 solid;
+}
+
+#work .item,
+#volunteer .item {
+	margin: 25px 0;
+}
+
+/* End work and volunteering */
+
+/* Skills, languages, interests and references styling */
+
+#skills {
+	margin-bottom: 10px;
+	border-bottom: 1px #E2E2E2 solid;
+	padding-bottom: 5px;
+}
+
+#skills .item,
+#languages .item {
+	margin: 0 0 25px 0;
+}
+
+#interests .item {
+	margin-bottom: 25px;
+}
+
+#skills {
+	overflow: hidden;
+}
+
+#languages .item,
+#interests .item,
+#skills .item {
+	float: left;
+	width: 50%;
+}
+
+#references,
+#interests {
+	clear: both;
+}
+
+/* End styling */
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header>
+	<h1>Robin Mordasiewicz</h1>
+	<h2>Multi-Cloud Solutions Engineer</h2>
+	</header>
+
+	<div id="content" class="container">
+	<section id="basics">
+		<div class="contact">
+		<h3>Contact</h3>
+		<div class="email">
+			<strong>Email</strong>
+			robin@mordasiewicz.com
+		</div>
+		<div class="phone">
+			<strong>Phone</strong>
+			(647) 808-6947
+		</div>
+		</div>
+		<div class="summary">
+			<h3>About</h3>
+			<p>Senior Sales Engineer covering major accounts, with a focus on multi-cloud networking, application security, and kubernetes solutions.</p>
+		</div>
+		<section id="profiles">
+			<div class="item">
+				<strong class="network">
+					LinkedIn
+				</strong>
+				<div class="url">
+					<a href="https://www.linkedin.com/in/robin-mordasiewicz/">
+						robin-mordasiewicz
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					Facebook
+				</strong>
+				<div class="url">
+					<a href="https://www.facebook.com/robin.mordasiewicz">
+						robin.mordasiewicz
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					YouTube
+				</strong>
+				<div class="url">
+					<a href="https://www.youtube.com/channel/UCc2rQTQp22P2WEhCArzlUoQ">
+						robinmordasiewicz
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					GitHub
+				</strong>
+				<div class="url">
+					<a href="https://github.com/robinmordasiewicz">
+						robinmordasiewicz
+					</a>
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<section id="work">
+		<h2>Work</h2>
+		<div class="item">
+			
+			<div class="work_position">
+				Cloud Solutions Engineer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2021-05-01
+				</span>
+				<span class="endDate">
+					- 2023-05-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Solution selling, focusing on F5 Distributed Cloud, positioning multi-cloud networking, application security and kubernetes based pipelines. In the SME overlay role I was responsible for account discovery, product presentations, demonstrations, and proof of concept, including automation with terraform across multiple clouds with on-prem datacenters. In the cloud overlay team I was responsible for architecting CICD pipeline integrations including github-actions, docker containers, argocd, jenkins, nginx ingress controller. Cloud based Web Application Firewalls, API protections, and networking application delivery with GSLB as well as anycast architectures.</p>
+			</div>
+			<ul class="highlights">
+				<li>Covering financial services in North America</li>
+				<li>Multi Cloud Networking</li>
+				<li>Cloud Automation with Terraform</li>
+				<li>Web App and API Protection</li>
+			</ul>
+		</div>
+		<div class="item">
+			
+			<div class="work_position">
+				Technical Marketing Manager - Service Providers
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2020-07-01
+				</span>
+				<span class="endDate">
+					- 2021-05-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Working with large enterprise customers in the Greater Toronto Area to help architect hybrid cloud architecture using F5 technology. Team collaboration, presenting technical labs and product demonstration in online webinar format as well as large in-person group events.</p>
+			</div>
+			<ul class="highlights">
+				<li>Authoring Technical Documentation</li>
+				<li>Content As Code</li>
+				<li>Restructured Text</li>
+				<li>Containerized Content Publishing</li>
+			</ul>
+		</div>
+		<div class="item">
+			
+			<div class="work_position">
+				Senior Solutions Engineer - Enterprise Commercial
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2018-07-01
+				</span>
+				<span class="endDate">
+					- 2020-07-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Working with large enterprise customers in the Greater Toronto Area to help architect hybrid cloud architecture using F5 technology. Team collaboration, presenting technical labs and product demonstration in online webinar format as well as large in-person group events.</p>
+			</div>
+			<ul class="highlights">
+				<li>Enterprise Commercial</li>
+				<li>Hybrid Cloud Architecture</li>
+				<li>Devops</li>
+				<li>Automation with Ansible</li>
+				<li>Web Appplication Firewall</li>
+				<li>VPN</li>
+				<li>iRules</li>
+			</ul>
+		</div>
+		<div class="item">
+			
+			<div class="work_position">
+				Field Sales Engineer - Service Providers
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2014-06-01
+				</span>
+				<span class="endDate">
+					- 2018-07-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Solution selling for Canadian Service Providers I have experience with carrier grade firewalls, wireline services, web application firewalls, and application delivery at scale. Architecting carrier-grade-NAT for mobility networks, architecting inspection platform enabling multi-vendor security chains including DLP/NGWF/IDS for connected car, connected city, and large IoT networks. Deploying massive distributed VPN platforms.</p>
+			</div>
+			<ul class="highlights">
+				<li>Service Providers</li>
+				<li>CGNAT</li>
+				<li>IoT Security Chaining</li>
+				<li>OpenStack</li>
+				<li>OpenShift</li>
+				<li>Web Appplication Firewall</li>
+				<li>DLP</li>
+			</ul>
+		</div>
+		<div class="item">
+			
+			<div class="work_position">
+				Sales Engineer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2008-06-01
+				</span>
+				<span class="endDate">
+					- 2014-06-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Responsible for helping build North Americas largest F5 partner, including product sales, professional services, F5 Authorized Trainer, delivering customer presentations for sales as well as public speaking events. Over the course of the five years I delivered authorized F5 training classes including ASM, GTM, LTM, and APM classes to hundreds of customers.</p>
+			</div>
+			<ul class="highlights">
+				<li>NetApp</li>
+				<li>VMWare</li>
+				<li>F5 Bigip</li>
+				<li>Certified F5 Trainer</li>
+				<li>Pre Sales</li>
+				<li>Professional Services</li>
+				<li>Customer facing speaking events</li>
+				<li>Technical demonstrations</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="volunteer">
+		<h2>Volunteer</h2>
+		<div class="item">
+			<h3 class="company">
+				Pony-Metal Orchestra
+			</h3>
+			
+			<div class="work_position">
+				Music Coach
+			</div>
+			<div class="summary">
+				<p>Community music festival organizer for neighbourhood kids</p>
+			</div>
+			<ul class="highlights">
+				<li></li>
+			</ul>
+		</div>
+	</section>
+	
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">
+			
+			<div class="institution">
+				University of Ottawa
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					1992-06-01
+				</span>
+				<span class="endDate">
+					- 1995-04-01
+				</span>
+			</div>
+
+
+			<ul class="courses">
+				<li>DB1101 - Basic SQL</li>
+				<li>CS2011 - Java Introduction</li>
+			</ul>
+
+		</div>
+	</section>
+	
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Web Application Firewall and API Protection
+			</div>
+			<div class="level">
+				<em>Master</em>
+			</div>
+			<ul class="keywords">
+				<li>WAAP</li>
+				<li>WAF</li>
+				<li>API</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Compression
+			</div>
+			<div class="level">
+				<em>Master</em>
+			</div>
+			<ul class="keywords">
+				<li>Mpeg</li>
+				<li>MP4</li>
+				<li>GIF</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="languages">
+		<h2>Languages</h2>
+		<div class="item">
+			<div class="language">
+				English
+			</div>
+			<div class="level">
+				<em>Native speaker</em>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests">
+		<h2>Interests</h2>
+		<div class="item">
+			<div class="name">
+				Watersports
+			</div>
+			<ul class="keywords">
+				<li>kitesurfing</li>
+				<li>foilboarding</li>
+			</ul>
+		</div>
+	</section>
+	
+	<section id="references">
+		<h2>References</h2>
+		<div class="item">
+			<blockquote class="reference">
+				It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company.
+			</blockquote>
+			<div class="name">
+				— Brian 
+			</div>
+		</div>
+	</section>
+	
+	</div>
+	</body>
+</html>
