@@ -63,7 +63,7 @@
       "url": "https://www.f5.com",
       "endDate": "2021-05-01",
       "startDate": "2020-07-01",
-      "summary": "Working with large enterprise customers in the Greater Toronto Area to help architect hybrid cloud architecture using F5 technology. Team collaboration, presenting technical labs and product demonstration in online webinar format as well as large in-person group events.",
+      "summary": "Authoring, and publishing technical documentation supporting service providers technology in OpenShift.",
       "highlights": [
         "Authoring Technical Documentation",
         "Content As Code",
@@ -128,6 +128,60 @@
         "Customer facing speaking events",
         "Technical demonstrations"
       ]
+    },
+    {
+      "name": "Samuel Manutech Inc",
+      "location": "185 The West Mall, Toronto, ON M9C 5L5",
+      "description": "One of the largest and oldest steel producer in North America.",
+      "position": "Linux System Administrator",
+      "url": "https://www.samuel.com/",
+      "endDate": "2008-06-01",
+      "startDate": "2005-05-01",
+      "summary": "Building and consolidating multi-tenant data centers. Deploying F5 with Linux based email servers with Microsoft Exchange running on highly available VMware servers with NetApp storage. Working on a small team provided the opportunity to be involved in every aspect of datacenter management from facilities to operating systems, storage, networking and virtualization.",
+      "highlights": [
+        "NetApp",
+        "VMWare",
+        "F5 Bigip",
+        "Microsoft Exchange",
+        "Active Directory",
+        "Cisco VPN",
+        "Cisco Routers/Firewalls"
+      ]
+    },
+    {
+      "name": "Bullseye Post Production",
+      "location": "99 Atlantic Avenue, Toronto Canada",
+      "description": "One of the largest and oldest steel producer in North America.",
+      "position": "Render Farm Engineer",
+      "url": "https://www.bullseye.tv",
+      "endDate": "2005-10-01",
+      "startDate": "2005-05-01",
+      "summary": "Created a high performance rendering cluster based on Linux, development of automation pipelines for rendering high resolution video for use with feature length movies and television. Full Stack architecture of high performance fiber based networks complete with network architecture, operations and security.",
+      "highlights": [
+        "NAS",
+        "Maya Render",
+        "Houdini Render",
+        "Astaro Firewall"
+      ]
+    },
+    {
+      "name": "Primus Telecommunications",
+      "location": "5353 Dundas St W #5343, Toronto, ON M9B 6H8",
+      "description": "Global, facilities-based telecommunications service provider",
+      "position": "UNIX Administrator",
+      "url": "https://www.primus.ca",
+      "endDate": "2005-05-01",
+      "startDate": "2002-01-01",
+      "summary": "Responsible for architecting shared web hosting platforms, storage. Developing business continuity integrations for customers of acquired companies. During the time at Primus I participated in rolling out the first residential VOIP solution in Canada, as well as designing and building high performance, scalable, and highly available network and application infrastructure.",
+      "highlights": [
+        "NetApp",
+        "Linux",
+        "Oracle",
+        "LDAP",
+        "Shell Scripting",
+        "Perl programming",
+        "PHP programming"
+      ]
     }
   ],
   "volunteer": [
@@ -186,12 +240,16 @@
       ]
     },
     {
-      "name": "Compression",
+      "name": "Infrastructure as Code",
       "level": "Master",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "GitHub",
+        "Webhooks",
+        "Jenkins CE",
+        "ArgoCD",
+        "Kubernetes",
+        "JSON",
+        "Continous Integration Continuous Deployment"
       ]
     }
   ],
